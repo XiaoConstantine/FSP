@@ -1,0 +1,13 @@
+/*************************************************************************
+    > File Name: XC_yieldCurve.h
+    > Author: Xiao Cui
+    > Mail: xc432@nyu.edu 
+    > Created Time: Mon Oct 22 14:52:27 2012
+ ************************************************************************/
+#include "XC_tradeBook.h"
+
+class XC_yieldCurve: public XC_tradeBook{
+   public:
+	   std::map<int, double>yeild_map;
+};
+
